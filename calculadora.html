@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <section>
+        <h1>Calculadora</h1>
+        <input type="text" name="" id="display">
+        <label for="display">
+            <div id="valor"></div>
+        </label>
+        
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="apagaTudo(event)">C</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">(</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">)</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="clickbotoes(event)">7</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">8</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">9</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="clickbotoes(event)">4</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">5</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">6</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="clickbotoes(event)">1</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">2</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">3</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="clickbotoes(event)">.</button></td>
+                    <td><button class="botao" onclick="clickbotoes(event)">0</button></td>
+                    <td><button class="botao" onclick="apaga1(event)">←</button></td>
+                    <td><button class="botao" onclick="res(event)">=</button></td>
+                </tr>
+
+        
+            </table>
+            
+        
+    </section>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
