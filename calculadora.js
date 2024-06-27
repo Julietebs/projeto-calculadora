@@ -13,3 +13,4 @@ function res(){
 
 // julietee teste 3
 // amanda teste 3
+// testando terminal
