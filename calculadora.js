@@ -12,3 +12,4 @@ function res(){
 }
 
 // julietee teste 3
+// amanda teste 2
